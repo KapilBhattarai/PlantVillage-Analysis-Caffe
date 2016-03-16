@@ -1,0 +1,15 @@
+test_iter: 876
+test_interval: 1314
+base_lr: 0.01
+display: 164
+max_iter: 52560
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+stepsize: 17345
+snapshot: 1314
+snapshot_prefix: "/scratch/mohanty/AWS/snapshots/googLeNet_dataset_pruned-none+(40-60)_finetune/snapshot"
+solver_mode: GPU
+net: "train_val.prototxt"
+solver_type: SGD
